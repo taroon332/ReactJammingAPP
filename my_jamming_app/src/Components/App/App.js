@@ -1,6 +1,7 @@
 
 import './App.css';
 import React from 'react';
+import  SearchBar  from '../SearchBar/SearchBar';
 
 class App extends React.Component 
 {
@@ -9,9 +10,9 @@ class App extends React.Component
     return(
         <div>
             <h1>Ja<span class="highlight">mmm</span>ing</h1>
-            <div class="App">
-                {/* < Search Bar/> */}
-                <div class="App-playlist">
+            <div className="App">
+                < SearchBar /> 
+                <div className="App-playlist">
                     {/* <SearchResults/>  */}
                     {/* <Playlist/>  */}
                 </div>
