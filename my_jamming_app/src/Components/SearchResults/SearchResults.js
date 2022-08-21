@@ -1,4 +1,4 @@
-import './SearchResult.css';
+import './SearchResults.css';
 import React from 'react';
 
 class SearchResult extends React.Component 
