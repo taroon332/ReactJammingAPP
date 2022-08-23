@@ -40,12 +40,9 @@ class App extends React.Component
 
     }
 
-    updatePlaylistName(event)
+    updatePlaylistName(name)
     {
-        let playlistName1 = event.target.value;
-
-        this.setState({playlistName: playlistName1})
-
+        this.setState({playlistName: name});
     }
 
   render()
